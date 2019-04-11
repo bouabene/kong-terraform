@@ -124,6 +124,8 @@ variable "ec2_ami" {
   default = {
     us-east-1 = "ami-7029320f"
     us-east-2 = "ami-0350efe0754b8e179"
+    eu-west-1 = "ami-7029320f"
+    eu-west-2 = "ami-0350efe0754b8e179"
     us-west-1 = "ami-657f9006"
     us-west-2 = "ami-59694f21"
   }
