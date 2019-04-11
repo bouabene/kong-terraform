@@ -325,7 +325,7 @@ variable "db_instance_class" {
   description = "Database instance class"
   type        = "string"
 
-  default = "db.t2.medium"
+  default = "db.r4.large"
 }
 
 variable "db_instance_count" {
